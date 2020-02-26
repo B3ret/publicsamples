@@ -76,7 +76,7 @@ set(WIN_LIBRARIES ${WIN_LIB_DIR}/IPHlpApi.Lib)
 
 # --------------------------------
 # General include directories
-include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR} ${CRYPT_INCLUDE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 
 # --------------------------------
 # Enable object file parallelism on Visual C++ compilter
